@@ -1,16 +1,21 @@
-# angelapp
 
-Aplicativo para catalogar pessoas que possam doar mascaras impressas em 3D para combater o corona virus.
+# AngelApp
 
-## Getting Started
+## Sobre
+Aplicativo para cadastrar pessoas com impressoras 3d e pessoas para solicitar máscaras para prevenção do Corona Virus.
 
-This project is a starting point for a Flutter application.
+## Links
 
-A few resources to get you started if this is your first Flutter project:
+Modelo de mascara para ser impresso:
+* [hackthepandemic](http://copper3d.com/hackthepandemic/) - Modelo de mascara para impressão
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Material Recomendado
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* PETG
+
+## Como vai funcionar:
+
+* Quem doa entra em uma fila
+* Quem Solicita entra em uma fila
+* Api faz o match entre solicitante e doador
+* Para solicitantes deve-se responder alguns critérios, para priorizar quem entra no topo da fila.
