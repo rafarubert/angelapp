@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'get_page.dart';
+import 'help_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -48,7 +50,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Material(
                   color: Colors.blue, // button color
                   child: InkWell(
-                    onTap: () {}, // button pressed
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => GetPage()),
+                      );
+                    },
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
@@ -75,7 +82,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Material(
                   color: Colors.blue, // button color
                   child: InkWell(
-                    onTap: () {}, // button pressed
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => HelpPage()),
+                      );
+                    }, // button pressed
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
